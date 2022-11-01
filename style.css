@@ -10,8 +10,42 @@
     
     /* main style */
     body {
-    background-image: url(forest.jpg);
+    background-image: url(newbackground.png);
+    background-size: cover;
     overflow: auto;
     scrollbar-color: gray black;
     scrollbar-width: thin;
     }
+    
+    .container {
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        box-sizing: border-box;
+        margin: 10%;
+    }
+        #water{
+            width: 50%;
+            height: 250px;
+            background-image: url(woda.jpg);
+            background-size: cover; 
+        }
+        #air{
+            width: 50%;
+            height: 250px;
+            background-image: url(powietrze.png);
+            background-size: cover; 
+        }
+        #home{
+            width: 50%;
+            height: 250px;
+            background-image: url(dom.png);
+            background-size: cover; 
+        }
+        #other{
+            width: 50%;
+            height: 250px;
+            background-image: url(pozostale.png);
+            background-size: cover; 
+        }
