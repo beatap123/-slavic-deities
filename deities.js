@@ -1,8 +1,9 @@
 const deity = {
     name: "Kurze płucko",
     character: "zły",
-    showText() {
-        return "Lubię jeść kurze płucka";
+    food: "mięso, ludzie",
+    description() {
+        console.log(`${this.name} ma zazwyczaj ${this.character} charakter. Jego ulubione potrawy to: ${this.food}. `);
     }
 }
 
@@ -11,3 +12,8 @@ for (const key in deity) {
         console.log(key);
     }
 }
+
+console.log(deity.description());
+
+const show = deity.description.bind({name : "Bazyliszek",character:"dobry", food:"króliki i inne małe gryzonie"} );
+show(); 
