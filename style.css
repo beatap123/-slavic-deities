@@ -28,7 +28,7 @@
         #water{
             width: 50%;
             height: 250px;
-            background-image: url(woda.jpg);
+            background-image: url(woda.png);
             background-size: cover; 
         }
         #air{
@@ -46,6 +46,6 @@
         #other{
             width: 50%;
             height: 250px;
-            background-image: url(pozostale.png);
+            background-image: url(pole.png);
             background-size: cover; 
         }
