@@ -1,17 +1,22 @@
 $padding: 6px;
+$color: white;
 
-nav {
+section {
   ul {
     margin: 0;
     padding: $padding;
     list-style: none;
   }
 
-  li { display: inline-block; }
+  .deity { 
+    display: inline-block; 
+    color:$color;
+  }
+  
 
   a {
     display: block;
     padding: $padding 12px;
-    text-decoration: none;
+    text-decoration: underline;
   }
 }

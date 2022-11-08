@@ -29,23 +29,23 @@
             width: 50%;
             height: 250px;
             background-image: url(woda.png);
-            background-size: cover; 
+            background-size: contain; 
         }
         #air{
             width: 50%;
             height: 250px;
             background-image: url(powietrze.png);
-            background-size: cover; 
+            background-size: contain; 
         }
         #home{
             width: 50%;
             height: 250px;
             background-image: url(dom.png);
-            background-size: cover; 
+            background-size: contain; 
         }
         #other{
             width: 50%;
             height: 250px;
             background-image: url(pole.png);
-            background-size: cover; 
+            background-size: contain; 
         }

@@ -1,3 +1,4 @@
+
 const deity = {
     name: "Kurze płucko",
     character: "zły",
