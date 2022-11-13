@@ -4,10 +4,7 @@
     padding: 0; 
     
     }
-    html {
-        min-height: 100%;
-    }
-    
+
     /* main style */
     body {
     background-image: url(newbackground.png);
@@ -20,8 +17,7 @@
     .container {
         display:flex;
         flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
+        flex-wrap: nowrap;
         box-sizing: border-box;
         margin: 10%;
     }
@@ -29,23 +25,27 @@
             width: 50%;
             height: 250px;
             background-image: url(woda.png);
-            background-size: contain; 
+            background-size: cover; 
+            background-repeat: no-repeat;
         }
         #air{
             width: 50%;
             height: 250px;
             background-image: url(powietrze.png);
-            background-size: contain; 
+            background-size: cover; 
+            background-repeat: no-repeat;
         }
         #home{
             width: 50%;
             height: 250px;
             background-image: url(dom.png);
-            background-size: contain; 
+            background-size: cover; 
+            background-repeat: no-repeat;
         }
         #other{
             width: 50%;
             height: 250px;
             background-image: url(pole.png);
-            background-size: contain; 
+            background-size: cover; 
+            background-repeat: no-repeat;
         }

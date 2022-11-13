@@ -1,6 +1,9 @@
 $padding: 6px;
-$color: white;
+$color:red;
 
+header {
+    color: $color;
+}
 section {
   ul {
     margin: 0;
@@ -8,15 +11,11 @@ section {
     list-style: none;
   }
 
-  .deity { 
-    display: inline-block; 
-    color:$color;
-  }
-  
+  li { display: inline-block; color:black;}
 
   a {
     display: block;
     padding: $padding 12px;
-    text-decoration: underline;
+    text-decoration: none;
   }
 }
