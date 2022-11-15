@@ -1,0 +1,20 @@
+header {
+  color: red;
+}
+
+section ul {
+  margin: 0;
+  padding: 6px;
+  list-style: none;
+}
+section li {
+  display: inline-block;
+  color: black;
+}
+section a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=styles.css.map */
