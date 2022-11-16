@@ -18,3 +18,5 @@ console.log(deity.description());
 
 const show = deity.description.bind({name : "Bazyliszek",character:"dobry", food:"króliki i inne małe gryzonie"} );
 show(); 
+
+document.getElementById("bazyliszek").innerHTML = deity.food;
