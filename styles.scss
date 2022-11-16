@@ -1,6 +1,50 @@
 $padding: 6px;
 $color:red;
 
+
+* {
+  margin: 0;
+  padding: 0; 
+  }
+
+  /* main style */
+body {
+  background-image: url(newbackground.png);
+  background-size: cover;
+  overflow: auto;
+  scrollbar-color: gray black;
+  scrollbar-width: thin;
+  }
+  
+.container {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  box-sizing: border-box;
+  margin: 10%;
+  }
+#water, #air, #home, #other {
+  width: 50%;
+  height: 250px;
+  background-size: cover; 
+  background-repeat: no-repeat;
+}
+#water {
+  background-image: url(woda.png);
+  }
+  
+#air{
+  background-image: url(powietrze.png);
+  }
+
+#home{
+  background-image: url(dom.png);
+  }
+      
+#other{
+  background-image: url(pole.png);
+  }
+
 header {
     color: $color;
 }
