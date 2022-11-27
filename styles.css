@@ -20,7 +20,7 @@ body {
   margin: 10%;
 }
 
-#water, #air, #home, #other {
+#water, #air, #home, #other, #bazyliszek {
   width: 50%;
   height: 250px;
   background-size: cover;
@@ -52,7 +52,6 @@ header {
   color: white;
   font-size: 24px;
   text-align: center;
-  text-transform: capitalize;
 }
 
 a {
@@ -72,6 +71,10 @@ section a {
   display: block;
   padding: 6px 12px;
   text-decoration: none;
+}
+
+p {
+  color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */

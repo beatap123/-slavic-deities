@@ -23,7 +23,7 @@ body {
   box-sizing: border-box;
   margin: 10%;
   }
-#water, #air, #home, #other {
+#water, #air, #home, #other, #bazyliszek {
   width: 50%;
   height: 250px;
   background-size: cover;
@@ -72,4 +72,7 @@ section {
     padding: $padding 12px;
     text-decoration: none;
   }
+}
+p {
+  color:$color;
 }
