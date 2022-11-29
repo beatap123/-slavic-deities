@@ -21,6 +21,8 @@ show();
 
 document.getElementById("imie").innerHTML = deity.name;
 document.getElementById("charakter").innerHTML = deity.character;
+document.getElementById("jedzenie").innerHTML = deity.food;
+
 
 function showdiv() {
       var x = document.getElementById("potwor1");
