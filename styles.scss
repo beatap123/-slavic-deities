@@ -76,3 +76,27 @@ section {
 p {
   color:$color;
 }
+#deity_button {
+  width: 150px;
+  height: 150px;
+  background-image: url(dragon.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: 10px;
+  background-color: inherit;
+  color: $color;
+}
+#bazyliszek_dragon {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: 50px;
+}
+#potwor1 {
+  margin:15px;
+}

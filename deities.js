@@ -25,10 +25,10 @@ document.getElementById("jedzenie").innerHTML = deity.food;
 
 
 function showdiv() {
-      var x = document.getElementById("potwor1");
+    var x = document.getElementById("potwor1");
       if (x.style.display === "none") {
-        x.style.display = "block";
-      } else {
-        x.style.display = "none";
+    x.style.display = "block";
+    } else {
+    x.style.display = "none";
       }
     } 
